@@ -11,11 +11,13 @@ html {
   box-sizing: inherit;
 }
 .page {
-  background-image: url('./images/map-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./images/map-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
 input {
   width: 100%;
   padding: 20px;
