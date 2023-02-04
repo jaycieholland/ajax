@@ -78,6 +78,7 @@ input.search {
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
+  font-size: 36px;
 }
 
 .suggestions li:nth-child(even) {
