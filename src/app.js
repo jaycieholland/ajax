@@ -33,7 +33,14 @@ function displayMatches(){
       `;
   }).join('');
   suggestions.innerHTML = html;
-}
+
+  if (matchArray.length > 10) {
+    suggestions.classList.add('scroll');
+  } else {
+    suggestions.classList.remove('scroll')
+  };
+  }
+
 const searchInput = document.querySelector('.search');
 const suggestions = document.querySelector('.suggestions');
 
